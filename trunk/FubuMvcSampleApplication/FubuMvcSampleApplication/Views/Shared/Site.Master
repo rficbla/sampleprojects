@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" Inherits="FubuMvcSampleApplication.Views.MasterPageView" %>
+<%@ Import Namespace="FubuMvcSampleApplication.Web.DisplayModels"%>
+<%@ Import Namespace="FubuMVC.Core"%>
+<%@ Import Namespace="FubuMVC.Core.Web"%>
+<%@ Import Namespace="FubuMvcSampleApplication.Web"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <%= this.Script("/Content/Scripts/jquery-latest.min.js")%>
+    <%= this.CSS("/Content/StyleSheets/site.css")%>
+    <%= this.CSS("/Content/StyleSheets/form.css")%>
+    <%= this.Script("/Content/Scripts/jquery.fubuMvcSampleApplication.js")%>   
+</head>
+<body>
+    <div class="page">
+        <div id="title">
+            <h1>Sample Application</h1>
+        </div>
+        <div id="main">            
+            <div id="message"><%= Model.Message %></div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />            
+        </div>
+    </div>
+</body>
+</html>
