@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMvcSampleApplication", "FubuMvcSampleApplication\FubuMvcSampleApplication.csproj", "{7D242978-C7CE-4D2C-9749-39E12AF451A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMvcSampleApplication.Tests", "FubuMvcSampleApplication.Tests\FubuMvcSampleApplication.Tests.csproj", "{72CBB500-ACC6-49F3-935F-C0E155AF89E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D242978-C7CE-4D2C-9749-39E12AF451A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D242978-C7CE-4D2C-9749-39E12AF451A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D242978-C7CE-4D2C-9749-39E12AF451A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D242978-C7CE-4D2C-9749-39E12AF451A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CBB500-ACC6-49F3-935F-C0E155AF89E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CBB500-ACC6-49F3-935F-C0E155AF89E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CBB500-ACC6-49F3-935F-C0E155AF89E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CBB500-ACC6-49F3-935F-C0E155AF89E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

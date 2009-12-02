@@ -1,0 +1,49 @@
+.page
+{
+    width: 100%;
+    font-family: verdana,arial,helvetica,sans-serif;
+	font-size: small;
+	color: Black;
+}
+
+div#title
+{
+    display:block;
+    float:left;
+    text-align:center;
+    width: 100%;
+    background-color: Gray;    
+}
+
+div#main
+{
+    padding: 80px 30px 15px 30px;
+}
+
+div#message
+{
+	padding: 0px 30px;
+    clear: left;
+    text-align:center;
+    color: Red;
+}
+
+fieldset
+{	
+	border: 1px solid #000;
+	width: 60%;
+	margin: auto auto;
+}
+
+legend 
+{
+	color: #000;
+	font-weight: bold;
+	border: 1px solid #fff;	
+}
+
+#header h1
+{
+    font-weight: bold;    
+    font-family: Arial, Helvetica, sans-serif;
+}
